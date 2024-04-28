@@ -1,6 +1,7 @@
 import { useState } from "react";
+import Home from "./Home";
 
 const App = () => {
-  return <>Hello World!</>;
+  return <Home />;
 };
 export default App;
