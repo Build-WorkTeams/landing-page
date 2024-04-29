@@ -1,5 +1,5 @@
-const BtnPrimary = ({ width, py, bg, children }) => {
-  const buttonClass = `text-white text-[14px] font-medium rounded-full border border-[#4D27BA] ${width} ${py} ${bg}`;
+const BtnPrimary = ({ width, py, bg, children, textSize }) => {
+  const buttonClass = `text-white font-medium rounded-full border border-[#4D27BA] ${width} ${py} ${bg} ${textSize}`;
   return <button className={buttonClass}>{children}</button>;
 };
 

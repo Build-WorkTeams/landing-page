@@ -1,3 +1,4 @@
+import AboutWorkTeams from "./components/AboutWT";
 import HeroSection from "./components/Hero";
 import Nav from "./components/Nav";
 
@@ -7,6 +8,7 @@ const Home = () => {
       <div className="font-poppins">
         <Nav />
         <HeroSection />
+        <AboutWorkTeams />
       </div>
     </>
   );

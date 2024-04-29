@@ -5,7 +5,7 @@ const Nav = () => {
   const navLinks = ["Home", "Team", "Our Features"];
 
   return (
-    <header className="bg-bg-secondary">
+    <header className="bg-Lavender">
       <nav className="mx-auto flex w-[90%] items-center justify-between py-6">
         <img className="h-9" src={Logo} alt="" />
 
@@ -19,10 +19,20 @@ const Nav = () => {
           </ul>
 
           <div className="flex gap-4">
-            <BtnTransparent bg="transparent" width="w-[9rem]" py="py-2">
+            <BtnTransparent
+              bg="transparent"
+              width="w-[9rem]"
+              py="py-2"
+              textSize="text-[14px]"
+            >
               Sign Up
             </BtnTransparent>
-            <BtnPrimary bg="bg-[#4D27BA]" width="w-[9rem]" py="py-2">
+            <BtnPrimary
+              bg="bg-[#4D27BA]"
+              width="w-[9rem]"
+              py="py-2"
+              textSize="text-[14px]"
+            >
               Login
             </BtnPrimary>
           </div>
