@@ -1,3 +1,4 @@
+import HeroSection from "./components/Hero";
 import Nav from "./components/Nav";
 
 const Home = () => {
@@ -5,6 +6,7 @@ const Home = () => {
     <>
       <div className="font-poppins">
         <Nav />
+        <HeroSection />
       </div>
     </>
   );

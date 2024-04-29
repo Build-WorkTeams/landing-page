@@ -7,6 +7,9 @@ export default {
         "regal-blue": "#243c5a",
         "bg-secondary": "#EEE9FF",
       },
+      backgroundImage: {
+        "hero-pattern": "url('/src/assets/desktop/heroBg.png')",
+      },
     },
     fontFamily: {
       poppins: ["poppins", "system-ui"],
