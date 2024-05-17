@@ -7,7 +7,7 @@ const HeroSection = () => {
       <section className="HERO bg-Lavender">
         <div className="mx-auto flex w-[90%] items-center py-4">
           <div className="w-[40%]">
-            <h3 className="text-Ocean-Blue font-nunitoSans text-[2.5rem] font-black leading-tight">
+            <h3 className="font-nunitoSans text-[3.75rem] font-black leading-tight text-Ocean-Blue">
               Turning <span className="text-Tangerine">‘me’</span> goals into{" "}
               <span className="text-Tangerine">‘we’</span> achievements
             </h3>

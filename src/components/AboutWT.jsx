@@ -34,10 +34,10 @@ const AboutWorkTeams = () => {
     <>
       <section className="mx-auto mt-[6rem] w-[90%]">
         <div className="text-center">
-          <h4 className="text-[22px] font-semibold text-Ocean-Blue">
+          <h4 className="text-[36px] font-semibold text-Ocean-Blue">
             Clear your Mind
           </h4>
-          <p className="text-Old Lavender mx-auto my-4 w-[50%]">
+          <p className="mx-auto my-4 w-[50%] text-Old-Lavender">
             We make project management easy! No need to spend hours learning
             complex software or training your team. Get started in minutes with
             WorkTeams. Sign up today!
@@ -63,6 +63,20 @@ const AboutWorkTeams = () => {
               </div>
             );
           })}
+        </div>
+      </section>
+      <section className="mx-auto mb-[5rem] mt-[8rem] w-[90%]">
+        <div className="">
+          <h3 className="text-center text-[44px] font-semibold text-Ocean-Blue">
+            What is <span className="text-Tangerine">WorkTeams?</span>
+          </h3>
+          <p className="mx-auto my-4 w-[60%] text-center text-Old-Lavender">
+            WorkTeams is a task management application, providing users with
+            seamless organization, progress tracking, and accountability. Users
+            benefit from simplified task breakdowns, automated progress tracking
+            for insights and motivation, and the ability to assign
+            accountability partners for feedback and support.
+          </p>
         </div>
       </section>
     </>
